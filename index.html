@@ -5,6 +5,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
   <title>Nashqadeye Homepage</title>
   <link rel="stylesheet" href="style.css" />
+  <style>
+   
+  </style>
 </head>
 <body>
   <header>
@@ -12,14 +15,14 @@
       NASHQADLE
       <div class="circle">HD</div>
     </div>
-    
+
+    <button class="menu-toggle" onclick="toggleMenu()">☰</button>
     <nav id="navbar">
       <a href="#hero" class="active">Home</a>
       <a href="#about">About</a>
       <a href="#services">Services</a>
       <a href="#contact">Contact</a>
       <div class="nav-controls">
-        <button class="menu-toggle" onclick="toggleMenu()">☰</button>
         <button id="themeToggle" onclick="toggleTheme()">🌙</button>
       </div>
     </nav>
@@ -29,8 +32,7 @@
   <section id="hero" class="hero">
     <h1>Empowering Designers & Developers</h1>
     <p>Welcome to Nashqadeye — where creativity meets usability. Browse our hand-crafted templates, tools, and learning resources to level up your web projects.</p>
-   <a href="desing.html" class="btn">Get Started</a>
-
+    <a href="desing.html" class="btn">Get Started</a>
   </section>
 
   <!-- About Section -->
@@ -49,35 +51,35 @@
 
   <!-- Services Section with Scroll -->
   <section id="services" class="footer-section">
-  <h2 style="margin-bottom: 2rem;">What We Offer</h2>
-  <div style="display: flex; gap: 1.5rem; overflow-x: auto; padding-bottom: 1rem;">
-    <div class="about-style">
-      <img src="is2.jpg" alt="Templates" style="width:100%; height:200px; border-radius:8px; margin-bottom: 1rem;">
-      <h2>Templates</h2>
-      <p>Browse a curated selection of professional templates for all project types.</p>
+    <h2 style="margin-bottom: 2rem;">What We Offer</h2>
+    <div style="display: flex; gap: 1.5rem; overflow-x: auto; padding-bottom: 1rem;">
+      <div class="about-style">
+        <img src="is2.jpg" alt="Templates" style="width:100%; height:200px; border-radius:8px; margin-bottom: 1rem;">
+        <h2>Templates</h2>
+        <p>Browse a curated selection of professional templates for all project types.</p>
+      </div>
+      <div class="about-style">
+        <img src="is2.jpg" alt="UI Kits" style="width:100%; height:200px; border-radius:8px; margin-bottom: 1rem;">
+        <h2>UI Kits</h2>
+        <p>Ready-to-use UI kits that speed up design and development workflows.</p>
+      </div>
+      <div class="about-style">
+        <img src="is2.jpg" alt="Code Snippets" style="width:100%; height:200px; border-radius:8px; margin-bottom: 1rem;">
+        <h2>Code Snippets</h2>
+        <p>Reusable snippets for HTML, CSS, and JS to boost your coding speed.</p>
+      </div>
+      <div class="about-style">
+        <img src="is2.jpg" alt="Learning" style="width:100%; height:200px; border-radius:8px; margin-bottom: 1rem;">
+        <h2>Learning</h2>
+        <p>In-depth tutorials and documentation to master front-end development.</p>
+      </div>
+      <div class="about-style">
+        <img src="is2.jpg" alt="Tools" style="width:100%; height:200px; border-radius:8px; margin-bottom: 1rem;">
+        <h2>Tools</h2>
+        <p>Handy online tools for color picking, CSS generation, and more.</p>
+      </div>
     </div>
-    <div class="about-style">
-      <img src="is2.jpg" alt="UI Kits" style="width:100%; height:200px; border-radius:8px; margin-bottom: 1rem;">
-      <h2>UI Kits</h2>
-      <p>Ready-to-use UI kits that speed up design and development workflows.</p>
-    </div>
-    <div class="about-style">
-      <img src="is2.jpg" alt="Code Snippets" style="width:100%; height:200px; border-radius:8px; margin-bottom: 1rem;">
-      <h2>Code Snippets</h2>
-      <p>Reusable snippets for HTML, CSS, and JS to boost your coding speed.</p>
-    </div>
-    <div class="about-style">
-      <img src="is2.jpg" alt="Learning" style="width:100%; height:200px; border-radius:8px; margin-bottom: 1rem;">
-      <h2>Learning</h2>
-      <p>In-depth tutorials and documentation to master front-end development.</p>
-    </div>
-    <div class="about-style">
-      <img src="is2.jpg" alt="Tools" style="width:100%; height:200px; border-radius:8px; margin-bottom: 1rem;">
-      <h2>Tools</h2>
-      <p>Handy online tools for color picking, CSS generation, and more.</p>
-    </div>
-  </div>
-</section>
+  </section>
 
   <!-- Footer -->
   <footer id="contact">
@@ -139,4 +141,4 @@
     sections.forEach(sec => observer.observe(sec));
   </script>
 </body>
-</html> 
+</html>
